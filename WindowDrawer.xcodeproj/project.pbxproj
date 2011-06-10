@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11CEACE613A2D25300380FD2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CEACE513A2D25300380FD2 /* Cocoa.framework */; };
+		11CEACF013A2D25300380FD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11CEACEE13A2D25300380FD2 /* InfoPlist.strings */; };
+		11CEACF213A2D25300380FD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CEACF113A2D25300380FD2 /* main.m */; };
+		11CEACF613A2D25300380FD2 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 11CEACF413A2D25300380FD2 /* Credits.rtf */; };
+		11CEACF913A2D25300380FD2 /* WindowDrawerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CEACF813A2D25300380FD2 /* WindowDrawerAppDelegate.m */; };
+		11CEACFC13A2D25300380FD2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11CEACFA13A2D25300380FD2 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11CEACE113A2D25300380FD2 /* WindowDrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WindowDrawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11CEACE513A2D25300380FD2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		11CEACE813A2D25300380FD2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		11CEACE913A2D25300380FD2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		11CEACEA13A2D25300380FD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		11CEACED13A2D25300380FD2 /* WindowDrawer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WindowDrawer-Info.plist"; sourceTree = "<group>"; };
+		11CEACEF13A2D25300380FD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		11CEACF113A2D25300380FD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11CEACF313A2D25300380FD2 /* WindowDrawer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WindowDrawer-Prefix.pch"; sourceTree = "<group>"; };
+		11CEACF513A2D25300380FD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		11CEACF713A2D25300380FD2 /* WindowDrawerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WindowDrawerAppDelegate.h; sourceTree = "<group>"; };
+		11CEACF813A2D25300380FD2 /* WindowDrawerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WindowDrawerAppDelegate.m; sourceTree = "<group>"; };
+		11CEACFB13A2D25300380FD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11CEACDE13A2D25300380FD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11CEACE613A2D25300380FD2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11CEACD613A2D25300380FD2 = {
+			isa = PBXGroup;
+			children = (
+				11CEACEB13A2D25300380FD2 /* WindowDrawer */,
+				11CEACE413A2D25300380FD2 /* Frameworks */,
+				11CEACE213A2D25300380FD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11CEACE213A2D25300380FD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11CEACE113A2D25300380FD2 /* WindowDrawer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11CEACE413A2D25300380FD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11CEACE513A2D25300380FD2 /* Cocoa.framework */,
+				11CEACE713A2D25300380FD2 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11CEACE713A2D25300380FD2 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11CEACE813A2D25300380FD2 /* AppKit.framework */,
+				11CEACE913A2D25300380FD2 /* CoreData.framework */,
+				11CEACEA13A2D25300380FD2 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		11CEACEB13A2D25300380FD2 /* WindowDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				11CEACF713A2D25300380FD2 /* WindowDrawerAppDelegate.h */,
+				11CEACF813A2D25300380FD2 /* WindowDrawerAppDelegate.m */,
+				11CEACFA13A2D25300380FD2 /* MainMenu.xib */,
+				11CEACEC13A2D25300380FD2 /* Supporting Files */,
+			);
+			path = WindowDrawer;
+			sourceTree = "<group>";
+		};
+		11CEACEC13A2D25300380FD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11CEACED13A2D25300380FD2 /* WindowDrawer-Info.plist */,
+				11CEACEE13A2D25300380FD2 /* InfoPlist.strings */,
+				11CEACF113A2D25300380FD2 /* main.m */,
+				11CEACF313A2D25300380FD2 /* WindowDrawer-Prefix.pch */,
+				11CEACF413A2D25300380FD2 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11CEACE013A2D25300380FD2 /* WindowDrawer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11CEACFF13A2D25300380FD2 /* Build configuration list for PBXNativeTarget "WindowDrawer" */;
+			buildPhases = (
+				11CEACDD13A2D25300380FD2 /* Sources */,
+				11CEACDE13A2D25300380FD2 /* Frameworks */,
+				11CEACDF13A2D25300380FD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WindowDrawer;
+			productName = WindowDrawer;
+			productReference = 11CEACE113A2D25300380FD2 /* WindowDrawer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11CEACD813A2D25300380FD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Blazing Cloud, Inc.";
+			};
+			buildConfigurationList = 11CEACDB13A2D25300380FD2 /* Build configuration list for PBXProject "WindowDrawer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 11CEACD613A2D25300380FD2;
+			productRefGroup = 11CEACE213A2D25300380FD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11CEACE013A2D25300380FD2 /* WindowDrawer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11CEACDF13A2D25300380FD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11CEACF013A2D25300380FD2 /* InfoPlist.strings in Resources */,
+				11CEACF613A2D25300380FD2 /* Credits.rtf in Resources */,
+				11CEACFC13A2D25300380FD2 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11CEACDD13A2D25300380FD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11CEACF213A2D25300380FD2 /* main.m in Sources */,
+				11CEACF913A2D25300380FD2 /* WindowDrawerAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11CEACEE13A2D25300380FD2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11CEACEF13A2D25300380FD2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		11CEACF413A2D25300380FD2 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11CEACF513A2D25300380FD2 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		11CEACFA13A2D25300380FD2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11CEACFB13A2D25300380FD2 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11CEACFD13A2D25300380FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		11CEACFE13A2D25300380FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		11CEAD0013A2D25300380FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WindowDrawer/WindowDrawer-Prefix.pch";
+				INFOPLIST_FILE = "WindowDrawer/WindowDrawer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		11CEAD0113A2D25300380FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WindowDrawer/WindowDrawer-Prefix.pch";
+				INFOPLIST_FILE = "WindowDrawer/WindowDrawer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11CEACDB13A2D25300380FD2 /* Build configuration list for PBXProject "WindowDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11CEACFD13A2D25300380FD2 /* Debug */,
+				11CEACFE13A2D25300380FD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11CEACFF13A2D25300380FD2 /* Build configuration list for PBXNativeTarget "WindowDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11CEAD0013A2D25300380FD2 /* Debug */,
+				11CEAD0113A2D25300380FD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11CEACD813A2D25300380FD2 /* Project object */;
+}
